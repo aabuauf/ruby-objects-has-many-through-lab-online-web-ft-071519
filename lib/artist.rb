@@ -21,10 +21,12 @@ class Artist
   end
   
   def generes
+    allGenre = []
     artistSongs = songs
-    artistSongs.each |eachSong|
+    artistSongs.each do |eachSong|
       allGenre << eachSong.genre
     end
+    return allGenre
   end
 end
   
