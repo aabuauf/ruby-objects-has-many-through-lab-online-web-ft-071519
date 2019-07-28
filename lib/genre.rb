@@ -19,7 +19,7 @@ class Genre
   def artists
     allArtists = []
     genreSongs = songs
-    genreSongs.all do|eachSong|
+    genreSongs.each do|eachSong|
       allArtists << eachsong.artist
     end
     return allArtists
