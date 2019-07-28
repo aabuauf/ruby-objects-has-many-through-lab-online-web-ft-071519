@@ -19,5 +19,7 @@ class Artist
       self == eachSong.artist
     end
   end
+  
+  
 end
   
