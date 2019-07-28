@@ -19,4 +19,7 @@ class Patient
       eachAppointment.patient == self
     end
   end
+  
+  def doctors
+  end
 end
