@@ -14,7 +14,7 @@ class Artist
     song = Song.new(songName,self,genre)
   end
   
-  def song
+  def songs
     Song.all.select do|eachSong|
       self == eachSong.artist
     end
