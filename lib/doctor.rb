@@ -19,4 +19,6 @@ class Doctor
       eachAppointment.doctor == self
     end
   end
+  
+  def 
 end
