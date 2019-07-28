@@ -22,7 +22,7 @@ class Artist
     end
   end
   
-  def generes
+  def genres
     allGenre = []
     artistSongs = songs
     artistSongs.each do |eachSong|
