@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
   attr_reader :name
   @@all = []
@@ -16,6 +18,7 @@ class Artist
   
   def songs
     Song.all.select do|eachSong|
+    binding.pry
       self == eachSong.artist
     end
   end
