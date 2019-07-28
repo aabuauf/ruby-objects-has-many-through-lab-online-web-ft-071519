@@ -20,6 +20,11 @@ class Artist
     end
   end
   
-  
+  def generes
+    artistSongs = songs
+    artistSongs.each |eachSong|
+      allGenre << eachSong.genre
+    end
+  end
 end
   
