@@ -20,7 +20,7 @@ class Genre
     allArtists = []
     genreSongs = songs
     genreSongs.each do|eachSong|
-      allArtists << eachsong.artist
+      allArtists << eachSong.artist
     end
     return allArtists
   end
